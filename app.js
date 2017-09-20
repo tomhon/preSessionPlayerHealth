@@ -142,15 +142,15 @@ function pushLogData (document) {
 
 // List the questions to be asked
 var questionsList = Array ();
-questionsList[0] = 'What´s your energy level before the match? 5(Awesome) - 0(Horrible)';
-questionsList[1] = 'How do you sleep before the match? 5(Awesome) - 0(Horrible)';
-questionsList[2] = 'How good is the opponent? 5(Awesome) - 0(Horrible)';
+questionsList[0] = 'What´s your energy level before the match? 5(Awesome) - 1(Horrible)';
+questionsList[1] = 'How do you sleep before the match? 5(Awesome) - 1(Horrible)';
+questionsList[2] = 'How good is the opponent? 5(Awesome) - 1(Horrible)';
 questionsList[3] = 'What´s your primary focus for this match?';
-questionsList[4] = 'What was your energy level during the match? 5(Awesome) - 0(Horrible)';
-questionsList[5] = 'How much effort did you put in during the match? 5(My Absolute Best) - 0(None)';
-questionsList[6] = 'How good was the opponent? 5(Awesome) - 0(Horrible)';
+questionsList[4] = 'What was your energy level during the match? 5(Awesome) - 1(Horrible)';
+questionsList[5] = 'How much effort did you put in during the match? 5(My Absolute Best) - 1(None)';
+questionsList[6] = 'How good was the opponent? 5(Awesome) - 1(Horrible)';
 questionsList[7] = 'What was your primary achievement during the match?';
-questionsList[8] = 'Did the team have fun during the match? 5(Awesome) - 0(Horrible)';
+questionsList[8] = 'Did the team have fun during the match? 5(Awesome) - 1(Horrible)';
 questionsList[9] = 'Who was the best player of the team? (Number 0-99)';
 
 function logData () {
