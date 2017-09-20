@@ -1,0 +1,23 @@
+{
+    "name": "playerwellness",
+    "version": "1.0.0",
+    "description": "bot to gather Youth Soccer Player Wellness Information",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://soccercoachml.visualstudio.com/_git/Bot%20Framework"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "azure-iot-device-http": "^1.1.17",
+      "botbuilder": "^3.9.1",
+      "documentdb": "^1.12.0",
+      "restify": "^4.3.0",
+      "url": "^0.11.0"
+    }
+  }
+  
