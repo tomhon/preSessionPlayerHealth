@@ -8,7 +8,7 @@ config.database = {
 };
 
 config.collection = {
-    "id": "v1 Test"
+    "id": "PlayerWellnessCollection"
 };
 
 config.documents = {

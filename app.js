@@ -182,7 +182,8 @@ var textPromptOptions = {
 function logResponse (session, question, response) {
 
         var date = new Date();
-        session.userData.id = date.toISOString(),
+        session.userData.iotMessageType = 'Health';
+        session.userData.id = date.toISOString();
         session.userData.user = session.message.user.name;
         session.userData.question = question.slice(0,question.indexOf('?')+1);
         session.userData.response = response;
